@@ -5,7 +5,7 @@ IP = "169.254.200.200"  # your robot's IP
 
 robot = NiryoRobot(IP)
 try:
-    # If needed: robot.calibrate_auto()
+    robot.calibrate_auto()
     mtx, dist = robot.get_camera_intrinsics()  # camera intrinsics
 
     print("Streaming… press Q or Esc to quit.")

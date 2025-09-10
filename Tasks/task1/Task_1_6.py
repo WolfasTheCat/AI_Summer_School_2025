@@ -20,7 +20,7 @@ try:
 
     # 3) Draw a "square" in joint space by pure add/sub on joints 0 & 1
     base = list(r.get_joints())
-    i0, i1 = 0, 1
+    i0, i1 = 0, 2
     dx, dy = 0.10, 0.10  # keep small
 
     for _ in range(3):  # trace square 3 times
